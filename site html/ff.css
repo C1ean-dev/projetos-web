@@ -1,0 +1,79 @@
+body {
+	text-align: center;
+	background-image: url(123.jpg);
+
+	font-family: "Trebuchet MS"; 
+	color: black; 
+}
+
+a:hover {
+	color: #000;
+}
+h1 a, h2 a, h3 a, p a, {
+	text-decoration: none;
+	color: black; 
+}
+#main {
+	background-image: url();
+	background-color: white;
+	text-align: center;
+	float: left;
+	width: 709px;
+	background-repeat: repeat-y;
+}
+#footer {
+	background: url(images/bottom.gif) top no-repeat;
+	float: left;
+	width: 709px;
+	height: 11px;
+}
+#tudo {
+	width: 709px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#content {
+	float: left;
+	text-align: center;
+	padding: 20px 40px 0 40px;
+}
+#fora {
+		float: left;
+	text-align: left;
+	padding: 20px 40px 0 40px;
+}
+#tio {
+	float: center;
+	text-align: left;
+	padding: 20px 40px 0 40px;
+	color: red
+}
+.entry p {
+	font-size: 1.2em;
+	line-height: 170%;
+}
+.entry ul li, .entry ol li {
+	font-size: 1.1em;
+	line-height: 170%;
+}
+
+#menu ul li {
+	float: left;
+	list-style: none;
+	list-style-type: none;
+}
+#menu .page_item {
+	background: url(images/left.gif) no-repeat left center;
+	line-height: 43px;
+	padding-left: 10px;
+	margin-right: 15px;
+}
+#menu .page_item a {
+	font-size: 1.5em;
+	line-height: 43px;
+	background-image: url(images/right.gif);
+	background-repeat: no-repeat;
+	background-position: right center;	
+	padding-right: 15px;
+	display: block;
+	float: left;
